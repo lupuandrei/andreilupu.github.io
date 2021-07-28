@@ -218,12 +218,27 @@ textarea {
   line-height: 1.65;
 }
 
+small.note {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: #ffffffb9;
+  font-size: 12pt;
+  margin-bottom: 10px;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
 @media screen and (max-width: 1680px) {
   body,
   input,
   select,
   textarea {
     font-size: 14pt;
+  }
+
+  small.note {
+    font-size: 10pt;
   }
 }
 
